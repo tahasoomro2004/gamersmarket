@@ -1,0 +1,67 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    background-color: #040404; /* Light background color for the entire page */
+}
+
+.navbar {
+    background-color: #8f0005; /* Dark navbar */
+}
+
+.navbar a {
+    color: #320000; /* White text color for navbar links */
+}
+
+.navbar a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+.carousel-item img {
+    height: 400px; /* Fixed height for slider images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+footer {
+    background-color: #310000; /* Dark footer */
+    color: white; /* White text for footer */
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff; /* Yellow color for social icons */
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+.social-icon {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.card {
+    border: none; /* No border for cards */
+}
+
+.card img {
+    height: 200px; /* Fixed height for game images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary button color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.form-group label {
+    font-weight: bold; /* Bold labels for the form */
+}
+
+.form-control {
+    border-radius: 0; /* Square edges for form inputs */
+}
