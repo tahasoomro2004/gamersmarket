@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Game; // Import your Game model
 
 class PreownedController extends Controller
 {
-    // Add the index method here
     public function index()
     {
-        // You can return a view or data from here
-        return view('preowned'); // Ensure you have a 'home.blade.php' in resources/views
+        // Fetch all pre-owned games from the database
+        $games = Game::where('is_preowned', true)->get(); // Assuming you have an 'is_preowned' field in your database
+
+        // Pass the games data to the view
+        return view('preowned', compact('games')); // This will pass the $games variable to the view
     }
 }

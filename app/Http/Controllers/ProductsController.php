@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Product;
 
 class ProductsController extends Controller
-{
-    // Add the index method here
-    public function index()
     {
-        // You can return a view or data from here
-        return view('products'); // Ensure you have a 'home.blade.php' in resources/views
+        public function index()
+        {
+            $products = Product::all();
+            return view('products', compact('products'));
+        }
     }
-}

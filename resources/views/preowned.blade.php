@@ -9,6 +9,8 @@
                     <img src="{{ asset('horizon.jpg') }}" class="card-img-top" alt="Game 1">
                     <div class="card-body text-center">
                         <button class="btn btn-primary">Add to Cart</button>
+                        <a href="cart.php?id=<?= $game['id']; ?>"><button>Add to Cart</button></a>
+
                     </div>
                 </div>
             </div>
@@ -17,6 +19,8 @@
                     <img src="{{ asset('forza.jpeg') }}" class="card-img-top" alt="Game 2">
                     <div class="card-body text-center">
                         <button class="btn btn-primary">Add to Cart</button>
+                        <a href="cart.php?id=<?= $game['id']; ?>"><button>Add to Cart</button></a>
+
                     </div>
                 </div>
             </div>
@@ -25,6 +29,8 @@
                     <img src="{{ asset('last of us.jpg') }}" class="card-img-top" alt="Game 3">
                     <div class="card-body text-center">
                         <button class="btn btn-primary">Add to Cart</button>
+                        <a href="cart.php?id=<?= $game['id']; ?>"><button>Add to Cart</button></a>
+
                     </div>
                 </div>
             </div>
@@ -33,6 +39,8 @@
                     <img src="{{ asset('GodofWarRagnarok.webp') }}" class="card-img-top" alt="Game 4">
                     <div class="card-body text-center">
                         <button class="btn btn-primary">Add to Cart</button>
+                        <a href="cart.php?id=<?= $game['id']; ?>"><button>Add to Cart</button></a>
+
                     </div>
                 </div>
             </div>
@@ -41,6 +49,8 @@
                     <img src="{{ asset('assassins.jpeg') }}" class="card-img-top" alt="Game 5">
                     <div class="card-body text-center">
                         <button class="btn btn-primary">Add to Cart</button>
+                        <a href="cart.php?id=<?= $game['id']; ?>"><button>Add to Cart</button></a>
+
                     </div>
                 </div>
             </div>
@@ -49,6 +59,8 @@
                     <img src="{{ asset('gta 5.jpeg') }}" class="card-img-top" alt="Game 6">
                     <div class="card-body text-center">
                         <button class="btn btn-primary">Add to Cart</button>
+                        <a href="cart.php?id=<?= $game['id']; ?>"><button>Add to Cart</button></a>
+
                     </div>
                 </div>
             </div>
