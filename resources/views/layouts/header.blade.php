@@ -25,8 +25,8 @@
                     <a class="nav-link" href="{{ url('/products') }}">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/preowned') }}">Pre-Owned Games</a>
-                </li>
+                <a class="nav-link" href="/admin/products">Admin Dashboard</a>
+            </li>
             </ul>
         </div>
     </nav>
