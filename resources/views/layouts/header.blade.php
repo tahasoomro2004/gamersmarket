@@ -27,6 +27,7 @@
                 <li class="nav-item">
                 <a class="nav-link" href="/admin/products">Admin Dashboard</a>
             </li>
+            
             </ul>
         </div>
     </nav>

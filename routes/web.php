@@ -8,6 +8,7 @@ use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\AdminProductsController;
 
 
+
 Route::get('/admin/products', [AdminController::class, 'index'])->name('admin.dashboard');
 
 // Correcting to Route::get()
