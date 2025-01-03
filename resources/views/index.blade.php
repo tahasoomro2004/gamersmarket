@@ -52,4 +52,6 @@
         <h4>Welcome to Gamers Market</h4>
         <p>Happy gaming !!</p>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    @stack('scripts')
 @endsection

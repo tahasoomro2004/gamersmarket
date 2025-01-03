@@ -8,7 +8,6 @@ use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\AdminProductsController;
 
 
-
 Route::get('/admin/products', [AdminController::class, 'index'])->name('admin.dashboard');
 
 // Correcting to Route::get()
@@ -17,6 +16,8 @@ Route::get('/preowned', [PreownedController::class, 'index']);
 Route::get('/products', [ProductsController::class, 'index']);
 
 Route::get('/products', [ProductsController::class, 'index'])->name('products.index');
+
+Route::get('/products/search', [ProductsController::class, 'search'])->name('products.search'); // AJAX search
 
 Route::prefix('admin')->group(function () {
     Route::get('/products', [AdminProductsController::class, 'index'])->name('admin.products.index');
